@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Nexus • Get Key</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <div class="logo"><img src="https://raw.githubusercontent.com/nguyennhlat2004/Web-data/main/22.jpg" alt="Nexus"></div>
+      <div>
+        <div class="brand-name">Nexus</div>
+        <div class="brand-tag">Best Executor With Key</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Download</a>
+      <a href="#">Discord</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Nexus Hub</h1>
+    <p class="subtitle">Lightning-fast • Undetected • Free Forever</p>
+    
+    <button id="getkey-btn" class="getkey-btn">Get Your Key</button>
+
+    <div id="key-box">
+      <div class="info-text">Your key is ready!</div>
+      <div class="key-display" id="generated-key"></div>
+      <div class="timer" id="timer">Expires in: 60s</div>
+      <button class="copy-btn" id="copy-btn">Copy Key</button>
+    </div>
+  </main>
+
+  <div id="toast">
+    <span id="toast-message"></span>
+    <span class="close-toast" onclick="closeToast()">X</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
